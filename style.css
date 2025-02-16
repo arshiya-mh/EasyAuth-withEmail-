@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4531b1;
+}
+@font-face {
+    font-family: 'bn';
+    src: url('assets/B-NAZANIN.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'mj';
+    src: url( 'assets/mj.ttf') format('truetype');
+}
+.container {
+    background: #605a56;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  
+    border-radius: 8px;
+    width: 400px;
+    direction: rtl;
+}
+.logoback{
+    position: absolute;
+    height: 100vh;
+    margin-left: -750px;
+    z-index: -1;
+    width: 50%;
+}
+.logoback1{
+    position: absolute;
+    height: 100vh;
+    margin-right: -641px;
+    z-index: -1;
+    width: 54%;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:  #f16896;
+    font-family: 'mj';
+    font-size: 20px;
+}
+label{
+    color: #f16896;
+    font-size: 20px;
+    font-family: 'bn';
+    
+}
+input {
+    width: 97%;
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid  #f16896;
+    height: 25px;
+    direction: ltr;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f16896;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-family: mj;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a836ad;
+}
+#subbt{
+    background-color: #a836ad;
+}
+#codeSection{
+    margin-top: 20px;
+    display: block;
+}
